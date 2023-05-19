@@ -1,0 +1,79 @@
+@use './../../App.scss';
+
+#project {
+    .container {
+        .row {
+            .col-md-6 {
+                .hover-card {
+                    img {
+                        transition: all 0.5s;
+                    }
+
+                    .card-body {
+                        .hover-commet {
+                            &:hover {
+                                .cursor-pointer {
+                                    color: App.$color-primary !important;
+                                    cursor: pointer !important;
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        cursor: pointer !important;
+
+                        img {
+                            transition: all 0.5s;
+                            transform: scale(1.1) !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .project-modal {
+            z-index: 999 !important;
+            transition: all 0.5s ease-in-out !important;
+            opacity: 1 !important;
+            top: 20% !important;
+            bottom: auto;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        .w-md-35 {
+            width: 35px !important;
+            height: 35px !important;
+            padding-top: 4px !important;
+        }
+
+        .h-md-280 {
+            height: 280px;
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 767px) {
+        .w-md-35 {
+            width: 35px !important;
+            height: 35px !important;
+            padding-top: 4px !important;
+        }
+
+        .h-sm-200 {
+            height: 200px;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .w-md-35 {
+            width: 35px !important;
+            height: 35px !important;
+            padding-top: 4px !important;
+        }
+
+        .h-sm-200 {
+            height: 200px;
+        }
+    }
+}

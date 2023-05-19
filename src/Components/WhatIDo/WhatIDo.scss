@@ -1,0 +1,69 @@
+@use './../../App.scss';
+
+@mixin mask($url) {
+    mask-image: url($url);
+    -webkit-mask-image: url($url);
+}
+
+#whatido {
+    overflow-x: hidden !important;
+
+    .icon {
+        width: 50px !important;
+        height: 50px !important;
+        display: inline-block;
+        mask: {
+            size: 100%;
+            repeat: no-repeat;
+            position: top center;
+        }
+        -webkit-mask-size: 100%;
+        -webkit-mask-repeat: no-repeat;
+        -webkit-mask-position: top center;
+        background-color: App.$color-primary;
+    }
+
+    .business_strategy {
+        @include mask('./img/business_strategy.svg');
+    }
+
+    .container {
+        .row {
+            .col-md-6 {
+                .card {
+                    .qwe {
+                        transition: all 0.5s !important;
+                        padding-top: 20px;
+                        padding-bottom: 10px;
+                        overflow: hidden !important;
+
+                        .hover-right {
+                            transition: all 0.5s !important;
+                            bottom: -60px !important;
+                            opacity: 0;
+                        }
+                    }
+
+                    &:hover {
+                        .qwe {
+                            transition: all 0.5s !important;
+                            padding-top: 0;
+                            padding-bottom: 30px;
+
+                            h4 a,
+                            p {
+                                color: white !important;
+                            }
+
+                            .hover-right {
+                                transition: all 0.5s !important;
+                                bottom: -40px !important;
+                                opacity: 1 !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

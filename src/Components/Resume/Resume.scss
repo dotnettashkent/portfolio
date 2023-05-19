@@ -1,0 +1,36 @@
+@use './../../App.scss';
+
+.hover-button:hover {
+    background-image: App.$bg-color-1 !important;
+}
+
+#proskills {
+    .borr-14 {
+        border-radius: 8px !important;
+    }
+
+    .h-12 {
+        height: 12px !important;
+    }
+
+    .opacity-9 {
+        opacity: 0.9 !important;
+    }
+
+    .progress-bar {
+        background-image: App.$skill-bg-color !important;
+        border: 0 solid transparent !important;
+        border-radius: 14px !important;
+        height: 7px !important;
+    }
+
+    .w-h-81 {
+        width: 81px;
+        height: 81px;
+
+        img {
+            max-height: 30px;
+            object-fit: contain;
+        }
+    }
+}

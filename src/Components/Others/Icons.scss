@@ -1,0 +1,83 @@
+@use './../../App.scss';
+
+@mixin mask($url) {
+    mask-image: url($url);
+    -webkit-mask-image: url($url);
+}
+
+.facebook {
+    @include mask('./img/facebook.svg');
+}
+
+.telegram {
+    @include mask('./img/telegram.svg');
+}
+
+.instagram {
+    @include mask('./img/instagram.svg');
+}
+
+.linkedin {
+    @include mask('./img/linkedin.svg');
+}
+
+.github {
+    @include mask('./img/github.svg');
+}
+
+#icons {
+    .icon {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        mask: {
+            size: 100%;
+            repeat: no-repeat;
+            position: top center;
+        }
+        -webkit-mask-size: 100%;
+        -webkit-mask-repeat: no-repeat;
+        -webkit-mask-position: top center;
+        background-color: App.$color-lightn;
+    }
+
+    a {
+        div {
+            border-radius: 6px !important;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 50px;
+                height: 100%;
+                background: rgba(225, 225, 225, 0.5);
+                transform: skewX(45deg) translateX(150px);
+                transition: 0.5s;
+                z-index: 3;
+            }
+
+            &:hover::before {
+                transform: skewX(45deg) translateX(-150px);
+            }
+        }
+    }
+
+    .w-h-60 {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .w-h-51 {
+        width: 51px !important;
+        height: 51px !important;
+    }
+
+    .icon-size {
+        height: 17px !important;
+        width: 17px !important;
+    }
+}
