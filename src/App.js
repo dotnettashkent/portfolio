@@ -5,8 +5,8 @@ import 'aos/dist/aos.css'
 import './App.scss'
 
 const Main = lazy(() => import('./Components/Main'))
-const Check = lazy(() => import('./Components/Check'))
-const EditProject = lazy(() => import('./Components/EditProject/EditProject'))
+// const Check = lazy(() => import('./Components/Check'))
+// const EditProject = lazy(() => import('./Components/EditProject/EditProject'))
 
 AOS.init({ duration: 1000 })
 
