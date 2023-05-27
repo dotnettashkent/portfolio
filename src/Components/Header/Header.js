@@ -29,14 +29,14 @@ const Header = () => {
                             </div>
                             <div>
                                 <h1 className='text-white p-bold font-secondary'>
-                                    <div className='fs-xl-60 fs-sm-60 fs-60 fs-lg-60'>
+                                    <div classNamnodee='fs-xl-60 fs-sm-60 fs-60 fs-lg-60'>
                                         Hi, I'm <span className='color-primary'>Saidnabi</span>
                                     </div>
                                     <div className='d-flex fs-xl-48 fs-lg-48 fs-sm-48 fs-48'>
                                         <span className='me-3'>a</span>
                                         <Typewriter
                                             options={{
-                                                strings: ['Developer.', 'Professional Coder.'],
+                                                strings: ['.NET Developer.', 'Professional Coder.'],
                                                 autoStart: true,
                                                 loop: true,
                                                 delay: 80,
@@ -71,7 +71,7 @@ const Header = () => {
                                             </p>
                                             <div className='py-3'>
                                                 <a
-                                                    href='/myresume/Saidnabi.pdf'
+                                                    href='/myresume/Resume.pdf'
                                                     className='box-shadow bg-color-1 border-0 borr-10 py-3 px-5 color-primary font-primary text-decoration-none p-medium'
                                                     download='Saidnabi Yuldashkhadjaev'
                                                 >
