@@ -29,7 +29,7 @@ const Header = () => {
                             </div>
                             <div>
                                 <h1 className='text-white p-bold font-secondary'>
-                                    <div classNamnodee='fs-xl-60 fs-sm-60 fs-60 fs-lg-60'>
+                                    <div className ='fs-xl-60 fs-sm-60 fs-60 fs-lg-60'>
                                         Hi, I'm <span className='color-primary'>Saidnabi</span>
                                     </div>
                                     <div className='d-flex fs-xl-48 fs-lg-48 fs-sm-48 fs-48'>
