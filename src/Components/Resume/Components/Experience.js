@@ -4,10 +4,10 @@ import ResumeCart from '../../Others/ResumeCart'
 const Experience = () => {
     const experiences = [
         {
-            h4: 'React, Frontend Intern',
-            years: 'SetApp (2021 - 2022)',
-            text: 'After completing the MERN course, I started doing frontend internship at Setapp. The practice coincided with the last month of autumn and the beginning of spring. I strengthened the basic knowledge in Setapp and started to finish the Restaurant project using React and Redux Toolkit.',
-        },
+            h4: '.NET, Backend Developer',
+            years: 'Freelancer (2023 - Present)',
+            text: 'After completing the .NET course, I was able to apply my newly acquired skills in practical projects. One of the notable projects I worked on was the FleetFlow project, where I played a key role in developing the "Best delivering system." This experience further enhanced my understanding of .NET development and solidified my passion for delivering high-quality solutions. I am eager to continue expanding my knowledge and contributing to impactful projects in the future.',
+        }
     ]
 
     return (

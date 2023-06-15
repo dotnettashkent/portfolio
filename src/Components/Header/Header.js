@@ -48,12 +48,12 @@ const Header = () => {
                             </div>
                             <div>
                                 <p className='color-lightn fs-16 fs-sm-16 fs-xl-16'>
-                                    I'm an enthusiastic developer with a year of experience in
-                                    building .NET applications. Skilled in ASP.NET, I prioritize
-                                    user satisfaction and follow Agile methodology. I excel in
-                                    problem-solving and contribute to quality improvement.
-                                    Passionate about learning, I eagerly embrace challenges to
-                                    deliver exceptional results.
+                                I have been actively involved in Information Technology for 1 years, specializing in web
+                                app development with excellent knowledge of software development methodologies,
+                                frameworks, and Software Development Life Cycle (SDLC).I have experience in
+                                developing applications for various industries including Healthcare, Finance, and
+                                Educational sectors.I possess strong communication skills and the ability to interact
+                                professionally with diverse groups.
                                 </p>
                             </div>
                             <div className='pt-5 mt-5'>
