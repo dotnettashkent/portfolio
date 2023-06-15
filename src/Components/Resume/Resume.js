@@ -29,7 +29,7 @@ const Resume = () => {
         },
         {
             shortName: 'int',
-            longName: 'interview',
+            longName: 'education',
         },
     ]
 
